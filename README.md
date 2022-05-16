@@ -21,7 +21,7 @@ _See [wedding.rampatra.com](http://wedding.rampatra.com/) for a demo. Use invite
 4. That's it, open `index.html` on your browser by just double-clicking on the file.
 
 # Documentation
-I have written a 
+I have written a
 [blog post describing all the features of this wedding website](https://blog.rampatra.com/wedding-website) and how to
 customize each of them according to your needs.
 
