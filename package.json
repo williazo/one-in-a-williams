@@ -15,7 +15,10 @@
     "template",
     "website template"
   ],
-  "authors": ["Ram Patra", "Justin Williams"],
+  "authors": [
+    "Ram Patra",
+    "Justin Williams"
+  ],
   "license": "GPL-3.0",
   "homepage": "https://github.com/williazo/jw-vv-wedding",
   "devDependencies": {
