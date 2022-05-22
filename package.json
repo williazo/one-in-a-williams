@@ -1,6 +1,6 @@
 {
-  "name": "one-in-a-williams",
-  "version": "1.0.0",
+  "name": "wedding-website",
+  "version": "1.0.1",
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
   "scripts": {
@@ -8,31 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:williazo/one-in-a-williams.git"
+    "url": "git+ssh://git@github.com:rampatra/wedding-website.git"
   },
   "keywords": [
     "wedding",
     "template",
     "website template"
   ],
-  "authors": [
-    "Ram Patra",
-    "Justin Williams"
-  ],
+  "author": "Ram Patra",
   "license": "GPL-3.0",
-  "homepage": "/",
+  "homepage": "https://github.com/rampatra/wedding-website",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^5.1.0",
+    "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
     "animate.css": "^3.7.2",
     "font-awesome": "^4.7.0",
     "waypoints": "^4.0.1"
-  },
-  "overrides": {
-    "graceful-fs": "^4.2.9"
   }
 }
