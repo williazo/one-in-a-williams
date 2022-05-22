@@ -4,8 +4,7 @@
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -32,5 +31,8 @@
     "animate.css": "^3.7.2",
     "font-awesome": "^4.7.0",
     "waypoints": "^4.0.1"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.9"
   }
 }
