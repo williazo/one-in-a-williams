@@ -21,7 +21,7 @@
     "Justin Williams"
   ],
   "license": "GPL-3.0",
-  "homepage": "https://github.com/williazo/jw-vv-wedding",
+  "homepage": "/",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-rename": "^1.4.0",
