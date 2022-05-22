@@ -1,5 +1,5 @@
 {
-  "name": "jw-vv-wedding",
+  "name": "one-in-a-williams",
   "version": "1.0.0",
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:williazo/jw-vv-wedding.git"
+    "url": "git+ssh://git@github.com:williazo/one-in-a-williams.git"
   },
   "keywords": [
     "wedding",
