@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/225f9878-3aaf-4a9f-9516-23542e1a2b30/deploy-status)](https://app.netlify.com/sites/one-in-a-williams/deploys)
-
 # Wedding Website
 
 A beautiful, feature rich, device friendly wedding website.
