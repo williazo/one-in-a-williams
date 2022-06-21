@@ -319,11 +319,12 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/eng_pics/wide/casual_walkway_handhold.jpg');
+  background: url('../img/eng_pics/wide/casual_sand_sitting.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
   position: relative;
 
   .rsvp-btn {
@@ -426,6 +427,7 @@ header {
 
       a {
         color: $txt-light;
+        padding-right: 25px;
 
         &:hover {
           color: $accent-color;
