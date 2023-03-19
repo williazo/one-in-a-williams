@@ -328,8 +328,7 @@ Hero
   position: relative;
 
   .rsvp-btn {
-    position: absolute;
-    bottom: 100px;
+    margin-bottom: 25%;
     left: 50%;
   }
 
@@ -1107,6 +1106,20 @@ RSVP form
       i.fa-users,
       i.fa-envelope,
       .fa-key {
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 20px;
+      }
+      .fa-cutlery{
+        font-size: 14px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 20px;
+      }
+      .fa-gavel{
         font-size: 14px;
         position: absolute;
         top: 50%;

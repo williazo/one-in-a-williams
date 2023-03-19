@@ -59,7 +59,7 @@
                                 <li><a href="#eng-pics">Photos</a></li>
                             </ul>
                             <ul class="member-actions">
-                                <!-- <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li> -->
+                                <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -76,16 +76,17 @@
                         <h1>Justin and Veronica</h1>
                         <!-- <img src="img/logo-lg.png"> -->
                         <p class="intro">Justin and Veronica are tying the knot!</p>
+                        <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn">RSVP</a>
                         <!-- <a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-4 hidden-xs"></div>
-                <!-- <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div> -->
+                <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                        class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
                 <div class="col-sm-4 hidden-xs"></div>
-            </div>
+            </div> -->
         </div>
         <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
     </section>
@@ -102,6 +103,88 @@
             </div>
         </div>
     </section>
+
+    <section class="rsvp text-center" id="rsvp">
+        <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                        </button>
+                        <div class="section-padding">
+                            <h3>Thank you!</h3>
+                            <p>We are glad to see you join us on our big day.</p>
+                            <div id="add-to-cal"></div>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Let us know your plans</h3>
+                    <p>Please return RSVP by <strong>April 1<sup>st</sup> 2023</strong></p>
+                    <form id="rsvp-form" class="rsvp-form" action="" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                        placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-user"></i><input name="name" class=""
+                                        placeholder="First Last, e.g., John Smith" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-gavel"></i><input name="attending" placeholder="Attending? (Yes/No)"
+                                        required>
+                                </div>
+                            </div>
+                            <div class=" col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
+                                        max="4" placeholder="# in Party" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-key"></i><input name="invite_code" id="invite_code" class=""
+                                        placeholder="Invite code" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-cutlery"></i><input name="food_selection"
+                                        placeholder="Meat, Fish, or Veg*" required>
+                                </div>
+                            </div>
+                            <button class="btn-fill rsvp-btn">
+                                Yes,
+                                that's me!
+                            </button>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <h6>*Meat = Tenderloin; Fish = Salmon; Veg = Portabello Steak <br>
+                            *If responding for
+                            multiple
+                            members please initial food selection for each person <br>
+                            <i>E.g., JW: Meat, VV: Fish</i>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section id="intro">
         <div class="container">
